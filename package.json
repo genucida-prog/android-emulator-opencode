@@ -1,0 +1,41 @@
+{
+  "name": "opencode-android-emulator",
+  "version": "1.1.0",
+  "description": "Emulador de Android para OpenCode - prueba APKs desde tus proyectos",
+  "main": "src/emulator-controller.js",
+  "scripts": {
+    "list-devices": "pwsh scripts/list-devices.ps1",
+    "start-emulator": "pwsh scripts/start-emulator.ps1",
+    "view-emulator": "pwsh scripts/view-emulator.ps1",
+    "install-apk": "pwsh scripts/install-apk.ps1",
+    "run-app": "pwsh scripts/run-app.ps1",
+    "run-tests": "pwsh scripts/run-instrumented-tests.ps1",
+    "run-and-report-tests": "pwsh scripts/run-and-report-tests.ps1",
+    "screenshot": "pwsh scripts/screenshot.ps1",
+    "logcat": "pwsh scripts/logcat.ps1",
+    "uninstall-app": "pwsh scripts/uninstall-app.ps1",
+    "clear-app-data": "pwsh scripts/clear-app-data.ps1",
+    "open-url": "pwsh scripts/open-url.ps1",
+    "device-info": "pwsh scripts/device-info.ps1",
+    "pull-file": "pwsh scripts/pull-file.ps1",
+    "push-file": "pwsh scripts/push-file.ps1",
+    "restart-emulator": "pwsh scripts/restart-emulator.ps1",
+    "simulate-conditions": "pwsh scripts/simulate-conditions.ps1",
+    "visual-regression": "pwsh scripts/visual-regression.ps1",
+    "ui-inspector": "pwsh scripts/ui-inspector.ps1",
+    "ui-overlay": "pwsh scripts/ui-overlay.ps1",
+    "decompile-apk": "pwsh scripts/decompile-apk.ps1",
+    "recompile-apk": "pwsh scripts/recompile-apk.ps1",
+    "apk-to-source": "pwsh scripts/apk-to-source.ps1",
+    "ui-to-code": "pwsh scripts/ui-to-code.ps1 -Apk",
+    "ui-watch": "pwsh scripts/ui-watch.ps1"
+  },
+  "dependencies": {
+    "adbkit": "^7.0.1",
+    "xml2js": "^0.6.2",
+    "pngjs": "^7.0.0",
+    "pixelmatch": "^5.3.0"
+  },
+  "keywords": ["opencode", "android", "emulator", "apk", "testing", "espresso", "ui-automator", "html-report", "github-actions"],
+  "license": "MIT"
+}

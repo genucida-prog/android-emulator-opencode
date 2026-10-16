@@ -1,0 +1,15 @@
+{
+  "name": "opencode-android-emulator",
+  "version": "1.1.0",
+  "description": "Extensión de OpenCode para controlar un emulador de Android y probar APKs",
+  "main": "src/index.js",
+  "opencode": {
+    "type": "extension",
+    "entrypoint": "src/index.js"
+  },
+  "dependencies": {
+    "adbkit": "^7.0.1"
+  },
+  "keywords": ["opencode", "opencode-extension", "android", "emulator", "apk", "testing"],
+  "license": "MIT"
+}
